@@ -10,7 +10,7 @@ Precipitation by Date – The above end point returns JSON response listing all 
 Stations Analyzed – The above end point returns JSON response listing all the stations from the data set. 
 
 - End point is /api/v1.0/tobs
-Temperature Observations – This end point returns JSON response for the historical temperatures observed in the past year.
+Temperature Observations – The above end point returns JSON response for the historical temperatures observed in the past year.
 
 - End point for Start Date:/api/v1.0/<start>
 - End point for both Start and End Date:/api/v1.0/<start>/<end>
