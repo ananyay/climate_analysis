@@ -3,17 +3,14 @@ It is important to plan trip activities based on climate, don’t want to be on 
  
 API Specs
 
-- End point is /api/v1.0/precipitation
-Precipitation by Date – The above end point returns JSON response listing all the temperatures grouped by date in the data set.
+- End point is /api/v1.0/precipitation --- The  end point returns JSON response listing all the temperatures grouped by date in the data set.
 
-- End point is /api/v1.0/stations
-Stations Analyzed – The above end point returns JSON response listing all the stations from the data set. 
+- End point is /api/v1.0/stations --- Stations Analyzed – The end point returns JSON response listing all the stations from the data set. 
 
-- End point is /api/v1.0/tobs
-Temperature Observations – The above end point returns JSON response for the historical temperatures observed in the past year.
+- End point is /api/v1.0/tobs --- The end point returns JSON response for the historical temperatures observed in the past year.
 
-- End point for Start Date:/api/v1.0/<start>
-- End point for both Start and End Date:/api/v1.0/<start>/<end>
+- End point for Start Date is /api/v1.0/<start>
+- End point for both Start and End Date is /api/v1.0/<start>/<end>
 Temperature Ranges – For a given date range, it returns Minimum, Average and Maximum temperature. Date Range can be specified with either start date, in which case end Date is the last observation in the data set. If an End date is mentioned, then the statistics are calculated for dates within Start and End Dates.
     
 ### Schema of the data used for the Analysis is :
