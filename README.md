@@ -1,7 +1,7 @@
 # Weather Guide for a Vacation
 It is important to plan trip activities based on climate, don’t want to be on a beach when raining. Analysis considers temperatures, precipitation and observed stations for the City of Honolulu, Hawaii. Along with the analysis, you can also leverage Flask API to receive JSON response. The end points for the API are listed below.
  
-API Specs
+### API Specs
 
 - /api/v1.0/precipitation --- The  end point returns JSON response listing all the temperatures grouped by date in the data set.
 
