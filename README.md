@@ -18,7 +18,7 @@ Temperature Observations – This end point returns JSON response for the histor
 Temperature Ranges – For a given date range, it returns Minimum, Average and Maximum temperature. Date Range can be specified with either start date, in which case end Date is the last observation in the data set. If an End date is mentioned, then the statistics are calculated for dates within Start and End Dates.
     
 Schema of the data used for the Analysis is :
-![schema](images/schema.png)
+![schema](Images/schema.PNG)
 
 
 
